@@ -1,0 +1,17 @@
+html {
+    background-color: rgb(11, 3, 53);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.thumb {
+    max-width: 500px;
+    max-height: 280px;
+}
+
+.first-div {
+    text-align: center;
+}

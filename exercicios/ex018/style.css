@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+@font-face {
+    font-family: 'Twice';
+    src: url(think\ twice.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: rgb(15, 13, 13);
+}
+
+body {
+    font-family: "Twice", serif;
+    font-size: 2em;
+    color: rgb(119, 3, 3);
+}
+
+h1 {
+    font-family: 'Twice', serif;
+    font-size: 2em;
+}

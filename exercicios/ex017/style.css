@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    font-family:  Arial, Helvetica, sans-serif, Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}

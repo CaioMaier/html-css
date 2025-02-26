@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Testando imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" alt="Imagem-grande">
+    </picture>
+    <audio preload="metadata" controls autoplay loop src="midia/happy-mistake.mp3">
+    </audio>
+
+    <video width="600" poster="thumb.jpg" controls autoplay>
+        <source src="meu-video.webm" type="video/webm">
+        <source src="meu-video.mp4" type="video/mp4">
+        <source src="meu-video.ogv" type="video/ogg">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/h5CwaVjF_78?si=NkmN_uFFqenlm2Tu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmr2UKjYwc?si=V_EuTKVUUWSAYwU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

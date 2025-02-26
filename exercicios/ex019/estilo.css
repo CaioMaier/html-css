@@ -1,0 +1,25 @@
+@charset "UTF-8"
+
+h1 {
+    text-align: center;
+    background-color: rgb(53, 1, 53);
+    color: white;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: purple;
+    color: white;
+}
+
+div::before {
+    content: ":(";
+}
+
+div::after {
+    content: ":)";
+}

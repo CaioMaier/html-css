@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+html {
+    background-color: magenta;
+}
+h1 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(238, 163, 238);
+    border: 10px solid purple;
+    padding: 50px;
+    outline: 20px solid lightyellow;
+    margin: 900px auto;
+}
