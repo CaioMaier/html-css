@@ -11,6 +11,7 @@ div {
 
 #d1:hover {
     background-color: lightblue;
+    background-position: ;
 }
 
 #d2:hover {
@@ -23,4 +24,5 @@ div {
 
 #d3:active {
     background-color: red;
+    background-size: ;
 }
