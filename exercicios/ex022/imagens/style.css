@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(to left, lightyellow, lavender, white, lightblue);
+}
+
+div.quadrado {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: lavender;
+    border-radius: 22px;
+    border: 1px solid grey;
+    margin: 35px;
+}
+
+.quadrado > p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+div#bloco2 {
+    background: linear-gradient(to right, lavender, white);
+}
+
+div#bloco3 {
+    background-image: url(pattern004.png);
+}
