@@ -1,0 +1,20 @@
+html {
+    background: rgb(1, 1, 80) url(imagens/espaco.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#espaco {
+    position: relative;
+    height: 90vh;
+}
+
+.astronauta {
+    background-image: url(imagens/astronauta.png);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
