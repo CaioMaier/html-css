@@ -34,19 +34,19 @@ header > h1 {
 
 header > #creditos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
 }
 
 div.eb {
     background-color: white;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 div.eb, div.imagem {
     font-family: 'Sriracha', sans-serif;
     padding-left: 30px;
-    padding-top: 7vh;
-    padding-bottom: 4vh;
+    padding-top: 10px;
+    padding-bottom: 30px;
     font-size: 3.5vw;
 }
 
