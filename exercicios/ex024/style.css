@@ -1,13 +1,37 @@
 @charset "UTF-8";
 
 td {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
     border-collapse: collapse;
-    font-size: 2em;
+    font-size: 1em;
     width: 200px;
-    height: 200px;
+    height: 35px;
+}
+
+th {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    height: 35px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.712);
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(63, 63, 63);
 }
 
 table {
     border-collapse: collapse
+}
+
+p {
+    font-size: 2em;
 }
