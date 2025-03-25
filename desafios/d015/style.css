@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+html {
+    margin: 0px;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tela {
+    display: block;
+    margin: 120px auto;
+    width: 265px;
+    height: 470px;
+    position: absolute;
+    top: -21px;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+#celular {
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 400px;
+    height: 650px;
+    margin: auto;
+}
