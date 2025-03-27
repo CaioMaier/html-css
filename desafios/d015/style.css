@@ -1,28 +1,84 @@
 @charset "UTF-8";
 
-html {
+* {
+    padding: 0px;
     margin: 0px;
+}
+
+body {
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#tela {
-    display: block;
-    margin: 120px auto;
-    width: 265px;
-    height: 470px;
-    position: absolute;
-    top: -21px;
-    left: 50%;
-    transform: translate(-50% -50%);
+    background-attachment: fixed;
 }
 
 #celular {
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-position: center center;
-    width: 400px;
-    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
     margin: auto;
+}
+
+#tela {
+    border: 0px;
+    display: block;
+    width: 269px;
+    height: 471px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
+
+#links {
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botao {
+    background-color: green;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    box-sizing: border-box;
+}
+
+.botao:hover {
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+    transition: transform 0.3s;
+}
+
+#home {
+    background-image: url(imagens/logo-home.jpg);
+}
+
+#youtube {
+    background-image: url(imagens/logo-youtube.jpg);
+}
+
+#github {
+    background-image: url(imagens/logo-github.jpg);
+}
+
+#instagram {
+    background-image: url(imagens/logo-instagram.jpg);
+}
+
+#twitter {
+    background-image: url(imagens/logo-twitter.jpg);
+}
+
+#facebook {
+    background-image: url(imagens/logo-facebook.jpg);
 }
